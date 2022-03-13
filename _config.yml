@@ -24,7 +24,7 @@ description              : # ..
 url                      : "https://changsub214.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/changsub214/changsub214.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   :  # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "창섭쓰.. 드디어 공부하는 거야?" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -101,10 +101,10 @@ analytics:
 
 
 # Site Author
-author:
+author: 
   name             : "Changseop Shin"
-  avatar           : #"/image/profile/img1.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "발그레 지는 하늘을 보며 <br> 지긋이 슬픈 미소를 <br> 하지만 희망찬 미소이길"
+  avatar           : "assets/image/profile/cute.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "발그레 지는 하늘을 보며 <br> &nbsp;&nbsp; 지긋이 슬픈 미소를 <br> 하지만 희망찬 미소이길"
   location         : "Republic of Korea"
   email            :
   links:
@@ -122,7 +122,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/changsub214"
+      url: "https://github.com/changsub214"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/changsub_s"
@@ -138,7 +138,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/changsub214"
+      url: "https://github.com/changsub214"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -288,3 +288,10 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true

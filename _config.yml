@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -20,7 +20,7 @@ title                    : "창섭쓰.. 드디어 공부하는 거야?"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Changseop Shin"
-description              : "발그레 지는 하늘을 보며 지긋이 슬픈 미소를 하지만 희망찬 미소이길"
+description              : # ..
 url                      : "https://changsub214.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/changsub214/changsub214.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "Changseop Shin"
-  avatar           : "image/profile/img1.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/image/profile/img1.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "발그레 지는 하늘을 보며 <br> 지긋이 슬픈 미소를 <br> 하지만 희망찬 미소이길"
   location         : "Republic of Korea"
   email            :

@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Changseop Shin"
 description              : # ..
-url                      : "https://changsub214.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://changsub214.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/changsub214/changsub214.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "Changseop Shin"
-  avatar           : "/image/profile/img1.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : #"/image/profile/img1.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "발그레 지는 하늘을 보며 <br> 지긋이 슬픈 미소를 <br> 하지만 희망찬 미소이길"
   location         : "Republic of Korea"
   email            :

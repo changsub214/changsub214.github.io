@@ -15,18 +15,18 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "창섭쓰.. 드디어 공부하는거야?"
+locale                   : "ko-KR"
+title                    : "창섭쓰.. 드디어 공부하는 거야?"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Changseop Shin"
 description              : "발그레 지는 하늘을 보며 지긋이 슬픈 미소를 하지만 희망찬 미소이길"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://changsub214.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "https://github.com/changsub214/changsub214.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "창섭쓰.. 드디어 공부하는 거야?" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -103,14 +103,14 @@ analytics:
 # Site Author
 author:
   name             : "Changseop Shin"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : ":)"
+  avatar           : "image/profile/img1.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "발그레 지는 하늘을 보며 지긋이 슬픈 미소를 하지만 희망찬 미소이길"
   location         : "South of Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:changsub214@naver.com"
+       url: "mailto:changsub214@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -122,7 +122,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/changsub214"
+       url: "https://github.com/changsub214"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/changsub_s"
@@ -138,7 +138,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/changsub214"
+       url: "https://github.com/changsub214"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:

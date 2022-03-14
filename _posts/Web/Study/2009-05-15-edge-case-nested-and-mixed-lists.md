@@ -8,6 +8,8 @@ tags:
   - edge case
   - lists
   - markup
+toc: true
+toc_sticky: true
 ---
 
 Nested and mixed lists are an interesting beast. It's a corner case to make sure that
@@ -16,6 +18,7 @@ Nested and mixed lists are an interesting beast. It's a corner case to make sure
 * Your list styles go deep enough.
 
 ### Ordered -- Unordered -- Ordered
+<h1>testing</h1>
 
 1. ordered item
 2. ordered item 

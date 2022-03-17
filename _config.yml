@@ -288,6 +288,7 @@ defaults:
       comments: # true
       share: true
       related: true
+      sidebar_main: true
   # _pages
   - scope:
       path: ""
@@ -295,6 +296,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      sidebar_main: true
 
 #codepen
 codepen_username: changsub214

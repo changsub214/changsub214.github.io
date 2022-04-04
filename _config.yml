@@ -300,3 +300,15 @@ defaults:
 
 #codepen
 codepen_username: changsub214
+
+#codeline
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+kramdown:
+    highlighter: rouge
+    syntax_highlighter_opts:
+        block:
+            line_numbers: true
